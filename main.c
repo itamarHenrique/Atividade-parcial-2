@@ -58,7 +58,7 @@ int main() {
         scanf("%d", &quantidadeProdutos);
 
         if(quantidadeProdutos <1 || quantidadeProdutos > 5){
-            printf("A quantidade que você inseriu no produto não condiz com a quantidade de produtos que temos.")
+            printf("A quantidade que você inseriu no produto não condiz com a quantidade de produtos que temos.\n");
         }
     }while(quantidadeProdutos < 1 || quantidadeProdutos > 5);
 
@@ -81,7 +81,7 @@ int main() {
           }
         }
         if (!codigoValido) {
-          printf("Código de produto inválido.\n");
+          printf("Código de produto inválido. Por favor, insira um codigo valido.\n");
           i--;
         } else {
           printf("Qual a quantidade do produto atual:");

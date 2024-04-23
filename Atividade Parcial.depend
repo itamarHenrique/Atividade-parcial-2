@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1713738068 source:j:\algoritmos e tecnicas de programação\atividade parcial\atividade parcial\main.c
+	<locale.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
